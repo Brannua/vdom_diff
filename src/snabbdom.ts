@@ -205,6 +205,7 @@ export function init (modules: Array<Partial<Module>>, domApi?: DOMAPI) {
     }
   }
 
+  // diff 算法核心
   function updateChildren (parentElm: Node,
     oldCh: VNode[],
     newCh: VNode[],
